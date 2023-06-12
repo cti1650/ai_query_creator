@@ -1,0 +1,7 @@
+## Creation condition
+- Grafana
+- BigQuery
+
+## table structure definition
+{table:"users"}
+{table:"logs"}
