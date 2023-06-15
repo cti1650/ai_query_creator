@@ -18,7 +18,7 @@ export const gpt = async (request, option = {}) => {
       .post(
         apiUrl,
         {
-          model: option?.model ?? "gpt-3.5-turbo",
+          model: option?.model ?? "gpt-3.5-turbo-16k",
           messages: [
             { role: "system", content: prompt },
             { role: "user", content: request },
