@@ -1,4 +1,4 @@
-# query_creator
+# ai_query_creator
 
 ## usage
 

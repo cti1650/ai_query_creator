@@ -3,5 +3,12 @@
 - BigQuery
 
 ## table structure definition
-{table:"users"}
-{table:"logs"}
+```
+CREATE users (
+  id INT;
+  name STR;
+  created_at TIMESTAMP;
+  email_verified_at TIMESTAMP;
+  updated_at TIMESTAMP;
+);
+```

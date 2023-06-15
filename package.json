@@ -1,10 +1,9 @@
 {
-  "name": "query_creator",
+  "name": "ai_query_creator",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
   "repository": "https://github.com/cti1650/query_creator.git",
-  "author": "cti1650 <cti1650@gmail.com>",
   "license": "MIT",
   "scripts": {
     "gpt": "node requestGPT.js",
